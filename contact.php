@@ -30,11 +30,11 @@
 
         <h1>Contact Me</h1>
         <p>You can add your contact details here.</p>
-        <form class="contact-form">
-            <input type="text" placeholder="Your Name"> <br><br>
-            <input type="email" placeholder="Your Email"> <br><br>
-            <textarea placeholder="Your Message here..."></textarea> <br><br>
-            <button type="submit">Send</button>
+        <form class="contact-form" action="create.php" method="POST">
+            <input type="text" name="name" placeholder="Your Name"> <br><br>
+            <input type="email" name="email" placeholder="Your Email"> <br><br>
+            <textarea name="message" placeholder="Your Message here..."></textarea> <br><br>
+            <button type="submit" name="send_button">Send</button>
         </form>
 
     </div>
